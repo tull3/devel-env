@@ -1,0 +1,19 @@
+{
+  "name": "devel-env",
+  "version": "1.0.0",
+  "description": "Setup utilities for local development environment ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tull3/devel-env.git"
+  },
+  "author": "tull3",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tull3/devel-env/issues"
+  },
+  "homepage": "https://github.com/tull3/devel-env#readme"
+}

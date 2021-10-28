@@ -1,0 +1,6 @@
+{
+	"docker.dockerodeOptions": {
+		"socketPath": "/run/user/1000/podman/podman.sock"
+	},
+	"docker.host": "unix:///run/user/1000/podman/podman.sock"
+}
