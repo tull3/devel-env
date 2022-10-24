@@ -1,0 +1,3 @@
+FROM centos:stream-9
+RUN dnf install epel-release
+RUN dnf install neofetch

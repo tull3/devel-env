@@ -12,6 +12,6 @@ const log = (err, stdout, stderr) => {
     console.log(stdout);
 }
 
-exec('cat /etc/centos-release', log);
+exec('perl -V', log);
 
 say(process.argv);
