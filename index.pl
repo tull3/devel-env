@@ -1,6 +1,9 @@
 #!/usr/bin/perl
 use v5.32;
 
+use FindBin;
+use lib "$FindBin::Bin/lib";
+
 no warnings qw(experimental::signatures experimental::re_strict);
 use feature 'signatures';
 use re 'strict';
@@ -27,4 +30,7 @@ if ($perl_version =~ /version (\d\d)/) {
 }
 
 say $version;
-say $working_directory;
+
+use Container::Pagila qw/global/;
+
+global();
